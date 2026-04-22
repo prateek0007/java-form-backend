@@ -15,5 +15,6 @@ spec:
       containers:
         - name: backend-app
           image: prateekmall/java-form-backend:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 8081
